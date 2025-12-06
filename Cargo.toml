@@ -1,0 +1,15 @@
+[package]
+name = "tgllama"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.86.0"
+license = "AGPL-3.0"
+authors = ["Alexander A. Klimov <a@kli.mov>"]
+
+[dependencies]
+ollama-rs = "0.3.3"
+teloxide = "0.17.0"
+
+[dependencies.tokio]
+version = "1.48.0"
+features = ["macros"]
