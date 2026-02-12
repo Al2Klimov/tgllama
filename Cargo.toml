@@ -7,7 +7,7 @@ license = "AGPL-3.0"
 authors = ["Alexander A. Klimov <a@kli.mov>"]
 
 [dependencies]
-ollama-rs = "0.3.3"
+ollama-rs = "0.3.4"
 teloxide = "0.17.0"
 
 [dependencies.tokio]
